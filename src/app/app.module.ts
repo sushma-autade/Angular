@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { Child1Component } from './child1/child1.component';
 import { InputDemoComponent } from './input-demo/input-demo.component';
+import { NewcoponentComponent } from './newcoponent/newcoponent.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,9 @@ import { InputDemoComponent } from './input-demo/input-demo.component';
     
     Child1Component,
     
-    InputDemoComponent
+    InputDemoComponent,
+    
+    NewcoponentComponent
   ],
   imports: [
     BrowserModule,
